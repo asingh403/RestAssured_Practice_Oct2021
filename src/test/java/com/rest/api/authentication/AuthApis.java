@@ -3,6 +3,9 @@ package com.rest.api.authentication;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import io.restassured.RestAssured;
@@ -11,7 +14,6 @@ import io.restassured.RestAssured;
 public class AuthApis {
 	
 	//basic auth
-	
 	String bearerToken = "Bearer 62aa1f2dc00580c92239cdfcb96da7e6cae2b0022e2ea6be603dda8fd48b03c6";
 	
 	@Test(priority=1)
@@ -32,7 +34,7 @@ public class AuthApis {
 	public void OAuth2_API_Test() {
 		given().log().all()
 			.auth()
-			.oauth2(bearerToken)
+			.oauth2("62aa1f2dc00580c92239cdfcb96da7e6cae2b0022e2ea6be603dda8fd48b03c6")
 		.when().log().all()
 			.get("https://gorest.co.in/public/v1/users")
 		.then().log().all()
@@ -48,11 +50,14 @@ public class AuthApis {
 			.contentType("application/json")
 			.header("Authorization", bearerToken)
 		.when().log().all()
-			.get("/public/v1/users?name=Robert23")
+			.get("/public/v1/users?name=Bhumika Parikh")
 		.then().log().all()
 			.statusCode(200)
-			.and().log().all()
-			.header("Server", "nginx");
+		.and().log().all()
+			.header("Server", "nginx")
+		.and()
+			.assertThat()
+			.body("data[0].email", equalTo("bjp12345@gmail.com"));
 			
 		
 		
@@ -66,8 +71,8 @@ public class AuthApis {
 		given().log().all()
 			.contentType("application/json")
 			.header("Authorization", "Bearer 62aa1f2dc00580c92239cdfcb96da7e6cae2b0022e2ea6be603dda8fd48b03c6")
-			.queryParams("name", "Robert23")
-			.queryParams("email", "robert007@gmail.com")
+			.queryParams("name", "Ignacio")
+			.queryParams("email", "ignacio102@company.com")
 		.when().log().all()
 			.get("/public/v1/users")
 		.then().log().all()

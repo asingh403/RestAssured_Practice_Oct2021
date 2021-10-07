@@ -5,7 +5,7 @@
     <classes>
       <class name="com.rest.api.authentication.AuthApis">
         <methods>
-          <include name="OAuth2_API_Test"/>
+          <include name="OAuth_API_Test_With_AuthHeader"/>
         </methods>
       </class> <!-- com.rest.api.authentication.AuthApis -->
     </classes>
