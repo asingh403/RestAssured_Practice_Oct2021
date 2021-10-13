@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rest.api.authentication.AuthApis">
+      <class name="com.rest.api.get.ResponseSpecBuilderTest">
         <methods>
-          <include name="OAuth_API_Test_With_AuthHeader"/>
+          <include name="ResponseSpec_Auth_Fail_Test"/>
         </methods>
-      </class> <!-- com.rest.api.authentication.AuthApis -->
+      </class> <!-- com.rest.api.get.ResponseSpecBuilderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
