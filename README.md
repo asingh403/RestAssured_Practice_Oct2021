@@ -15,6 +15,5 @@
 - [StackOverFlow](https://stackoverflow.com/questions/54130713/can-we-build-requestspecification-of-io-restassured-in-step-by-step-manner)</a>
 - [RestAssured Javadoc](https://www.javadoc.io/doc/io.rest-assured/rest-assured/latest/io/restassured/specification/RequestSpecification.html#spec-io.restassured.specification.RequestSpecification-)
 
-	-RequestSpecification
-	-RequestBuilder
-	
+    - RequestSpecification
+    - RequestBuilder
