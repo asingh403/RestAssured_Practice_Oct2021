@@ -1,8 +1,18 @@
+<p align="center">
+  <img src="https://github.com/thompsonemerson/thompsonemerson/raw/master/cover-thompson.png" height="200"/>
+</p>
+
+## Introduction
+- 🔭 I’m currently working on 🤖 [RestAssured](https://github.com/asingh403/RestAssured_Practice_Oct2021/)
+- 🌱 I’m currently learning  RestAssured 
+- 🏋️ Learn everyday!
+
 # 100_Days_API_TestingRestAssured <img src="https://github.com/ABSphreak/ABSphreak/blob/master/gifs/Hi.gif" width="30px">
 
 
-<img src="https://dz2cdn1.dzone.com/storage/temp/14642014-1618855956521.png" alt="RestAssured Auth2.0" width="500px;"/>
 
+<img src="https://cdn.springpeople.com/media/Rest Assured.png" width="120px;"/>
+<img align="right" width=300px alt="Unicorn" src="https://media.giphy.com/media/3ohs4BSacFKI7A717y/giphy.gif" width="100px;"/>
 
 
 ##  Progress ⏳
