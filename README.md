@@ -1,4 +1,4 @@
-# 100_Days_API_TestingRestAssured
+# 100_Days_API_TestingRestAssured <img src="https://github.com/ABSphreak/ABSphreak/blob/master/gifs/Hi.gif" width="30px">
 
 <img src="https://dz2cdn1.dzone.com/storage/temp/14642014-1618855956521.png" alt="RestAssured Auth2.0" width="500px;"/>
 
