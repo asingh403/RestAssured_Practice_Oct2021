@@ -1,7 +1,7 @@
 # 100_Days_API_TestingRestAssured
 
+<img src="https://dz2cdn1.dzone.com/storage/temp/14642014-1618855956521.png" alt="RestAssured Auth2.0" width="500px;"/>
 
-<img src="https://dz2cdn1.dzone.com/storage/temp/14642014-1618855956521.png" alt="RestAssured Auth2.0" border="0">
 
 ##  Progress ⏳
 
