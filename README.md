@@ -7,8 +7,8 @@
 
 ### Day 1
 
-- [OAuth2.0 Youtube]-(https://youtu.be/2JlL_PvysGk)
-- [OAuth2.0 RestAssured Docs](https://github.com/rest-assured/rest-assured/wiki/Usage#oauth)
+- [OAuth2.0 - Youtube](https://youtu.be/2JlL_PvysGk)
+- [OAuth2.0 - RestAssured Docs](https://github.com/rest-assured/rest-assured/wiki/Usage#oauth)
 
 ### Day 2
 - [Request Specification](https://youtu.be/Xhswpwvu7o4)
