@@ -39,3 +39,6 @@
     - Post Request with ".json" in "new File" and sending the request
 - [Schema Validation Tests](https://github.com/asingh403/RestAssured_Practice_Oct2021/tree/master/src/test/java/com/rest/api/schema)
 - [Schema files to Validate](https://github.com/asingh403/RestAssured_Practice_Oct2021/tree/master/src/test/resources)
+
+- [Getter & Setters for POJO](https://github.com/asingh403/RestAssured_Practice_Oct2021/blob/master/src/test/java/com/rest/api/post/User.java)
+- [Generating JSON using POJO class](https://github.com/asingh403/RestAssured_Practice_Oct2021/blob/master/src/test/java/com/rest/api/post/POSTAPIWithPOJO.java)
