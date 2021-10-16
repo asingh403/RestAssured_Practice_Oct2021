@@ -1,12 +1,7 @@
 package com.rest.api.authentication;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.*;
-
-import java.util.HashMap;
-import java.util.Map;
-
-import org.testng.annotations.DataProvider;
+import static org.hamcrest.Matchers.equalTo;
 import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 

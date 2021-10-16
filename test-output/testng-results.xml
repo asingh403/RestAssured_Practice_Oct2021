@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-16T14:10:30Z" name="Default suite" finished-at="2021-10-16T14:10:35Z" duration-ms="4366">
+  <suite started-at="2021-10-16T17:50:50Z" name="Default suite" finished-at="2021-10-16T17:50:53Z" duration-ms="3417">
     <groups>
     </groups>
-    <test started-at="2021-10-16T14:10:30Z" name="Default test" finished-at="2021-10-16T14:10:35Z" duration-ms="4366">
-      <class name="com.rest.api.post.POSTAPIBDD">
-        <test-method signature="createUser_Post_API_File_Test()[pri:4, instance:com.rest.api.post.POSTAPIBDD@5fbe4146]" started-at="2021-10-16T14:10:30Z" name="createUser_Post_API_File_Test" finished-at="2021-10-16T14:10:35Z" duration-ms="4316" status="PASS">
+    <test started-at="2021-10-16T17:50:50Z" name="Default test" finished-at="2021-10-16T17:50:53Z" duration-ms="3417">
+      <class name="com.rest.api.schema.CheckSchemaTest">
+        <test-method signature="get_user_API_Schema_Test()[pri:2, instance:com.rest.api.schema.CheckSchemaTest@5c90e579]" started-at="2021-10-16T17:50:50Z" name="get_user_API_Schema_Test" finished-at="2021-10-16T17:50:53Z" duration-ms="3385" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser_Post_API_File_Test -->
-      </class> <!-- com.rest.api.post.POSTAPIBDD -->
+        </test-method> <!-- get_user_API_Schema_Test -->
+      </class> <!-- com.rest.api.schema.CheckSchemaTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
