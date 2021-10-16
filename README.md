@@ -29,3 +29,10 @@
 
     - RequestSpecification
     - RequestBuilder
+
+
+### Day 3
+- [POST Request BDD Style - makeseleniumeasy blog ](http://makeseleniumeasy.com/2019/11/19/rest-assured-tutorial-8-bdd-style-in-rest-assured/)
+
+    - Post Request and assertation
+    - Post Request with ".json" in "new File" and sending the request
