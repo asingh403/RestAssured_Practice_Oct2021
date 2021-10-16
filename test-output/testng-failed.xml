@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rest.api.schema.CheckSchemaTest">
+      <class name="com.rest.api.post.POSTAPIWithPOJO">
         <methods>
-          <include name="get_user_API_Schema_Test"/>
+          <include name="createUser_With_Pojo_Test"/>
         </methods>
-      </class> <!-- com.rest.api.schema.CheckSchemaTest -->
+      </class> <!-- com.rest.api.post.POSTAPIWithPOJO -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

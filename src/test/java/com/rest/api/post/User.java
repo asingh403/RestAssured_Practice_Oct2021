@@ -7,13 +7,15 @@ public class User {
 	private String email;
 	private String gender;
 	private String dob;
+	private String status;
 	
-	public User(String name, String email, String gender, String dob) {
+	public User(String name, String email, String gender, String dob, String status) {
 		
 		this.name = name;
 		this.email = email;
 		this.gender = gender;
 		this.dob = dob;
+		this.status = status;
 	}
 	
 	//getter and Setter method
@@ -49,21 +51,13 @@ public class User {
 	public void setDob(String dob) {
 		this.dob = dob;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	
 }
