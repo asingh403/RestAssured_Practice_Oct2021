@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rest.api.get.ResponseSpecBuilderTest">
+      <class name="com.rest.api.post.POSTAPIBDD">
         <methods>
-          <include name="ResponseSpec_Auth_Fail_Test"/>
+          <include name="createUser_Post_API_JSONString"/>
         </methods>
-      </class> <!-- com.rest.api.get.ResponseSpecBuilderTest -->
+      </class> <!-- com.rest.api.post.POSTAPIBDD -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
