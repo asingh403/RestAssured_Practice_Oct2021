@@ -7,6 +7,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import io.restassured.specification.RequestSpecification;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
@@ -49,6 +50,7 @@ public class POSTAPIWithPOJO {
 			.assertThat()
 				.body("data.name", equalTo(user.getName()))
 				.body("data.email", equalTo(user.getEmail()))
-				.body("data.status", equalTo(user.getStatus()));			
+				.body("data.status", equalTo(user.getStatus()));
+		
 	}
 }
