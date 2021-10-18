@@ -44,3 +44,12 @@
 
     - [Getter & Setters for POJO](https://github.com/asingh403/RestAssured_Practice_Oct2021/blob/master/src/test/java/com/rest/api/post/User.java)
     - [Generating JSON using POJO class](https://github.com/asingh403/RestAssured_Practice_Oct2021/blob/master/src/test/java/com/rest/api/post/POSTAPIWithPOJO.java)
+
+
+### Day 4
+- [DELETE Request Practice - YouTube](https://youtu.be/7RUzarUREpo)
+- [PUT Request BDD Style - makeseleniumeasy blog ](http://makeseleniumeasy.com/2019/12/02/rest-assured-tutorial-10-lets-write-first-put-request-in-rest-assured/)
+
+
+    - [PUT Request Tests - Git Repo](https://github.com/asingh403/RestAssured_Practice_Oct2021/tree/master/src/test/java/com/rest/api/put)
+    - [DELETE Request - Git Repo](https://github.com/asingh403/RestAssured_Practice_Oct2021/tree/master/src/test/java/com/rest/api/delete)
