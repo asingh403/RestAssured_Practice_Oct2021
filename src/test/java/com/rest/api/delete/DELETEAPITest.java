@@ -11,8 +11,6 @@ import static org.hamcrest.Matchers.*;
 
 public class DELETEAPITest {
 
-	// "Authorization", "Bearer 62aa1f2dc00580c92239cdfcb96da7e6cae2b0022e2ea6be603dda8fd48b03c6"
-	
 	@Test
 	public void delete_user_API_Test() {
 		
