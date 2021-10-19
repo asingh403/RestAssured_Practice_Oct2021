@@ -4,8 +4,19 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import org.testng.annotations.Test;
 import io.restassured.RestAssured;
+import io.restassured.authentication.FormAuthConfig;
 
-
+/**
+ * 
+ * @author ASHUTOSH SINGH
+ * basic
+ * preemptive
+ * digest
+ * form
+ * OAuth1
+ * OAuth2
+ *
+ */
 public class AuthApis {
 	
 	//basic auth
@@ -25,7 +36,48 @@ public class AuthApis {
 		
 	}
 	
+	/**
+	 * Preemptive authentication
+	 */
+	
 	@Test(priority=2)
+	public void basic_auth_Preemptive_API_Test() {
+		given().log().all()
+			.auth()
+			.basic("admin", "admin")
+		.when().log().all()
+			.get("https://the-internet.herokuapp.com/basic_auth")
+		.then().log().all()
+			.assertThat()
+			.statusCode(200);
+		
+	}
+	
+	@Test(priority=3)
+	public void basic_auth_Digest_API_Test() {
+		given().log().all()
+			.auth()
+			.digest("admin", "admin") //one hash code will send in Digest authentication
+		.when().log().all()
+			.get("https://the-internet.herokuapp.com/basic_auth")
+		.then().log().all()
+			.assertThat()
+			.statusCode(200);
+	}
+	
+	@Test(priority=3)
+	public void basic_auth_Form_API_Test() {
+		given().log().all()
+			.auth()
+			.form("asinghtest123", "1108noki@", new FormAuthConfig("https://classic.freecrm.com/system/authenticate.cfm", "username", "password")) //Form base authentication
+		.when().log().all()
+			.get("https://classic.crmpro.com/index.html")
+		.then().log().all()
+			.assertThat()
+			.statusCode(200);
+	}
+	
+	@Test(priority=4)
 	public void OAuth2_API_Test() {
 		given().log().all()
 			.auth()
@@ -37,7 +89,7 @@ public class AuthApis {
 		.statusCode(200);
 	}
 	
-	@Test(priority = 3)
+	@Test(priority = 5)
 	public void OAuth_API_Test_With_AuthHeader() {
 		RestAssured.baseURI = "https://gorest.co.in";
 		
@@ -58,7 +110,7 @@ public class AuthApis {
 		
 	}
 	
-	@Test(priority = 4)
+	@Test(priority = 6)
 	public void OAuth_API_WithTwoQueryParams_API_Test() {
 		
 		RestAssured.baseURI = "https://gorest.co.in";
