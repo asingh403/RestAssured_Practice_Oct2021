@@ -53,3 +53,10 @@
 
     - [PUT Request Tests - Git Repo](https://github.com/asingh403/RestAssured_Practice_Oct2021/tree/master/src/test/java/com/rest/api/put)
     - [DELETE Request - Git Repo](https://github.com/asingh403/RestAssured_Practice_Oct2021/tree/master/src/test/java/com/rest/api/delete)
+
+### Day 5
+- [Non-BDD Style - YouTube](https://www.youtube.com/watch?v=ZJBmggk7_3M&ab_channel=ExecuteAutomation)
+- [JsonPath Parsing](https://devqa.io/parse-json-response-rest-assured/)
+
+    - [Git Repo || Types of Authentication : basic | preemptive | digest | form | OAuth1 | OAuth2](https://github.com/asingh403/RestAssured_Practice_Oct2021/blob/master/src/test/java/com/rest/api/authentication/AuthApis.java)
+    - [Git Repo || Non-BDD-Approach](https://github.com/asingh403/RestAssured_Practice_Oct2021/blob/master/src/test/java/com/rest/api/get/GETNONBDDAPI.java)
