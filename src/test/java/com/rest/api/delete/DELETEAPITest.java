@@ -33,8 +33,4 @@ public class DELETEAPITest {
 			.assertThat()
 			.statusCode(204);
 	}
-	
-	
-	
-
 }
