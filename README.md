@@ -76,24 +76,20 @@
 
 **ETag:** Header in Response
 
-**~~Content/Type** is not a request-Header. it is categorized as one of the representation headers.~~
+~**Content/Type** is not a request-Header. it is categorized as one of the representation headers.~~
 
 Accept-Encoding: **gzip** then it means it can understand compress data also.
 
 **Representation Header:** Is talk about that the data has been transferred. It could be XML,JSON
 
-**Content-Encoding:** gzip
-
-**Content/Type:** Text/HTML
-
-Chunked
-
-Content-Length: 3545
-
-Content-Range: bytes 50-1000/*
-
-Content-Location: /docs/fo.xml
-
+```
+  - Content-Encoding:gzip
+  - Content/Type: Text/HTML
+  - Chunked
+  - Content-Length: 3545
+  - Content-Range: bytes 50-1000/*
+  - Content-Location: /docs/fo.xml
+```
 **Notes: We can customize the header: Example: Authorization.**
 
 **Resource for more depth learning:** 
