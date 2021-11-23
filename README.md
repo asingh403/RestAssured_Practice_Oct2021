@@ -60,3 +60,44 @@
 
     - [Git Repo || Types of Authentication : basic | preemptive | digest | form | OAuth1 | OAuth2](https://github.com/asingh403/RestAssured_Practice_Oct2021/blob/master/src/test/java/com/rest/api/authentication/AuthApis.java)
     - [Git Repo || Non-BDD-Approach](https://github.com/asingh403/RestAssured_Practice_Oct2021/blob/master/src/test/java/com/rest/api/get/GETNONBDDAPI.java)
+    
+
+### Day 6
+## **API Headers**
+
+1. **Request Header**
+2. **Response Header**
+3. **Payload Header**
+4. **Representation Header**
+
+**Request Header:** is Key: Value pair that is sent by client. So, the server can understand more about the request that client has placed.
+
+**Response Header:** K:V is used by the server to give more context about the response.
+
+**ETag:** Header in Response
+
+**~~Content/Type** is not a request-Header. it is categorized as one of the representation headers.~~
+
+Accept-Encoding: **gzip** then it means it can understand compress data also.
+
+**Representation Header:** Is talk about that the data has been transferred. It could be XML,JSON
+
+**Content-Encoding:** gzip
+
+**Content/Type:** Text/HTML
+
+Chunked
+
+Content-Length: 3545
+
+Content-Range: bytes 50-1000/*
+
+Content-Location: /docs/fo.xml
+
+**Notes: We can customize the header: Example: Authorization.**
+
+**Resource for more depth learning:** 
+
+[https://developer.mozilla.org/en-US/docs/Web/API/Headers/Headers](https://developer.mozilla.org/en-US/docs/Web/API/Headers/Headers)
+
+[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
