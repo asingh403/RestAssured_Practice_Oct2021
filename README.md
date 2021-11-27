@@ -64,7 +64,7 @@
 
 ### Day 6
 ## **API Headers**
-
+ - [API Header | YT Video](https://youtu.be/76CcJ90Lz4U)
 1. **Request Header**
 2. **Response Header**
 3. **Payload Header**
@@ -94,9 +94,11 @@ Accept-Encoding: **gzip** then it means it can understand compress data also.
 
 **Resource for more depth learning:** 
 
-[https://developer.mozilla.org/en-US/docs/Web/API/Headers/Headers](https://developer.mozilla.org/en-US/docs/Web/API/Headers/Headers)
+- [Mozilla Article | Web-API-Headers](https://developer.mozilla.org/en-US/docs/Web/API/Headers/Headers)
 
-[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+- [Mozilla Article | Web-HTTP-Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+
+- [Retarget Common | RestAssured Series](https://www.youtube.com/playlist?list=PL-a9eJ2NZlbT0Hoo_Hj43utwgq2VusPyN)
 
 
 **JSON Path generator and validator**
