@@ -21,6 +21,7 @@
 
 - [OAuth2.0 - Youtube](https://youtu.be/2JlL_PvysGk)
 - [OAuth2.0 - RestAssured Docs](https://github.com/rest-assured/rest-assured/wiki/Usage#oauth)
+- [What is a REST API? | CRUD APIs| REST vs HTTP](https://youtu.be/nUuAWn0AAiY?t=50)
 
 ### Day 2
 - [Request Specification](https://youtu.be/Xhswpwvu7o4)
