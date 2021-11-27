@@ -64,7 +64,7 @@
 
 ### Day 6
 ## **API Headers**
- - [API Header | YT Video](https://youtu.be/76CcJ90Lz4U)
+ - [API Header | YT Video](https://youtu.be/76CcJ90Lz4U?t=51)
 1. **Request Header**
 2. **Response Header**
 3. **Payload Header**
