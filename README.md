@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://github.com/thompsonemerson/thompsonemerson/raw/master/cover-thompson.png" height="200"/>
-</p>
-
 ## Introduction
 - 🔭 I’m currently working on 🤖 [RestAssured](https://github.com/asingh403/RestAssured_Practice_Oct2021/)
 - 🌱 I’m currently learning  RestAssured 
