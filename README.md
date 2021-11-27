@@ -97,3 +97,9 @@ Accept-Encoding: **gzip** then it means it can understand compress data also.
 [https://developer.mozilla.org/en-US/docs/Web/API/Headers/Headers](https://developer.mozilla.org/en-US/docs/Web/API/Headers/Headers)
 
 [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+
+
+**JSON Path generator and validator**
+ - http://json2jsonpath.com/
+ - https://jsonpathfinder.com/
+ - https://jsonformatter.jsonparseronline.com/
