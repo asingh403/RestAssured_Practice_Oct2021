@@ -102,3 +102,6 @@ Accept-Encoding: **gzip** then it means it can understand compress data also.
  - http://json2jsonpath.com/
  - https://jsonpathfinder.com/
  - https://jsonformatter.jsonparseronline.com/
+
+**Learning Strategy**
+- [Prepration Strategy](https://luck-artichoke-f18.notion.site/How-to-Study-and-prepartion-bba7737f280945768a0942a4e58829ac)
