@@ -94,8 +94,10 @@ Accept-Encoding: **gzip** then it means it can understand compress data also.
 - [Mozilla Article | Web-API-Headers](https://developer.mozilla.org/en-US/docs/Web/API/Headers/Headers)
 
 - [Mozilla Article | Web-HTTP-Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+- [MDN | REST Concept](https://developer.mozilla.org/en-US/docs/Glossary/REST)
 
 - [Retarget Common | RestAssured Series](https://www.youtube.com/playlist?list=PL-a9eJ2NZlbT0Hoo_Hj43utwgq2VusPyN)
+
 
 
 **JSON Path generator and validator**
