@@ -107,4 +107,4 @@ Accept-Encoding: **gzip** then it means it can understand compress data also.
 
 **Learning Strategy**
 - [Prepration Strategy](https://luck-artichoke-f18.notion.site/How-to-Study-and-prepartion-bba7737f280945768a0942a4e58829ac)
-- https://gist.github.com/asingh403/1ba6e2df93e0390d3c9a9b66840592d4
+- [TestNG Runner-TC Execution](https://gist.github.com/asingh403/1ba6e2df93e0390d3c9a9b66840592d4)
