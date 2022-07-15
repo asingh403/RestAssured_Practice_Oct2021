@@ -110,3 +110,4 @@ Accept-Encoding: **gzip** then it means it can understand compress data also.
 - [TestNG Runner-TC Execution](https://gist.github.com/asingh403/1ba6e2df93e0390d3c9a9b66840592d4)
 - [TestNG Test from Java Main Method | journaldev](https://www.journaldev.com/21261/running-testng-tests-from-java-main-method)
 - [TestNG Exection from Main Method | By Mukesh Otwani](https://learn-automation.com/how-to-execute-testng-xml-files-using-java-program/)
+- [TestNG Runnner Execution | By Ashutosh](https://gist.github.com/asingh403/3e4b4644431af98feb75804bb84cb2a9)
