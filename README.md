@@ -111,3 +111,7 @@ Accept-Encoding: **gzip** then it means it can understand compress data also.
 - [TestNG Test from Java Main Method | journaldev](https://www.journaldev.com/21261/running-testng-tests-from-java-main-method)
 - [TestNG Exection from Main Method | By Mukesh Otwani](https://learn-automation.com/how-to-execute-testng-xml-files-using-java-program/)
 - [TestNG Runnner Execution | By Ashutosh](https://gist.github.com/asingh403/3e4b4644431af98feb75804bb84cb2a9)
+
+**Multiple Type of Date Creation in Postman**
+- [PreCondition: to Create date at RunTime](https://luck-artichoke-f18.notion.site/JS-to-Create-Multiple-Date-Type-Creating-Env-Variable-in-Postman-Passing-to-those-environment-Va-a19067a4b5e44adcbe1cb1df7836407a)
+- [gist github to create date and Setting into Env. Variable](https://gist.github.com/asingh403/edf62d2b3b59eba01738ba03bc4bd543)
